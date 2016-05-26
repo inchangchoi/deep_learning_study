@@ -153,7 +153,7 @@ vis_square(feat)
 feat = net.blobs['pool5'].data[0]
 vis_square(feat)
 #####################################################
-# Show FC 6
+### Show FC 6
 #####################################################
 feat = net.blobs['fc6'].data[0]
 plt.figure(FIGURE_COUNT)
